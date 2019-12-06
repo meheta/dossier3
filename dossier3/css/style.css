@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+}
+#my-section{
+    background-color: #fef6fb;
+    height: 100vh;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image
+{
+    background: url('../people-3104635_1920.jpg') center;
+    height: 70vh;
+    width: 60%;
+    background-size: cover;
+    position: relative;
+}
+.my-color{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #d77fa1;
+    padding: 1rem 3rem;
+}
+.my-color p
+{
+    font-size: 1rem;
+}
+
+.my-color h1
+{
+    font-size: 2.5rem;
+}
